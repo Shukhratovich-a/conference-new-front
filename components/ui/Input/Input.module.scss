@@ -1,0 +1,43 @@
+.wrapper {
+  position: relative;
+
+  display: block;
+  padding-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 15px;
+
+  border: 1px solid transparent;
+  outline-width: 0.5px;
+  outline-color: $secondary;
+  border: 1px solid $stroke-gray;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 22px;
+  color: $input;
+
+  &::placeholder {
+    color: $placeholder;
+  }
+}
+
+.error {
+  border: 1px solid $red;
+  outline-color: $red;
+}
+
+.error__message {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  color: $red;
+
+  font-size: 10px;
+  line-height: 15px;
+}

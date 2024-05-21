@@ -1,0 +1,21 @@
+.list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.link {
+  display: block;
+  padding: 10px 15px;
+
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: inherit;
+  text-decoration: none;
+}

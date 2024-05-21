@@ -1,0 +1,27 @@
+.modal {
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+
+    &__link {
+      padding: 10px;
+      margin: -10px;
+
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: $placeholder;
+
+      cursor: pointer;
+
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}

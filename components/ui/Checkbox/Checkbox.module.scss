@@ -1,0 +1,41 @@
+.wrapper {
+  position: relative;
+
+  display: block;
+  padding-bottom: 15px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.input {
+  &__controller {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    background-color: transparent;
+  }
+
+  &:checked + &__controller {
+    background: red;
+  }
+}
+
+.error {
+  border: 1px solid $red;
+  outline-color: $red;
+}
+
+.error__message {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  color: $red;
+
+  font-size: 10px;
+  line-height: 15px;
+}

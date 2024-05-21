@@ -1,0 +1,21 @@
+.form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.form__inner {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-bottom: 35px;
+
+  border-bottom: 1px solid $stroke-gray;
+}
+
+.error {
+  display: block;
+  margin-top: 20px;
+
+  font-weight: 600;
+  color: var(--red);
+}
